@@ -1,4 +1,4 @@
-export const api = 'http://127.0.0.1:8000/api/';
+export const api = 'https://gurudevadmin.herokuapp.com:4000/api/';
 export const gernateImages =(img)=>{
-    return `http://127.0.0.1:8000${img}`;
+    return `https://gurudevadmin.herokuapp.com:4000${img}`;
 };
