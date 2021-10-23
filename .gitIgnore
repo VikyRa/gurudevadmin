@@ -1,0 +1,24 @@
+
+# dependencies
+/node_modules
+/admin/node_modules
+/admin/.pnp
+/admin/.pnp.js
+
+# testing
+/admin/coverage
+
+# production
+/admin/build
+
+# misc
+/backend/config/config.env
+/admin/.DS_Store
+/admin/.env.local
+/admin/.env.development.local
+/admin/.env.test.local
+/admin/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

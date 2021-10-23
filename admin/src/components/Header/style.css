@@ -1,0 +1,25 @@
+/* 
+nav > ul > li:hover > a, nav > ul:not( :hover ) > li.active > a {
+	background-color: #cc470d;
+} */
+/* second level */
+
+nav li ul {
+	background-color: #fff;
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+
+nav li:hover ul {
+	display: block;
+	left: 0;
+	right: 0;
+}
+nav li:not( :first-child ):hover ul {
+	left: -1px;
+}
+
+nav li ul li a:hover, nav li ul:not( :hover ) li.active a {
+	background-color: #BF912A;
+}

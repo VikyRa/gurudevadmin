@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+	box-sizing: border-box;
+	outline: none;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+
+a {
+	text-decoration: none!important;
+	color: initial;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul li {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+p {
+	font-size: 16px;
+	font-weight: 300;
+}
+
+p strong {
+	font-weight: bold;
+}
+
+img {
+	max-width: 100%;
+}
+
+.clearfix {
+	clear: both;
+}
+
+header {
+	position: relative;
+	width: 100%;
+	background: #dd9c042e;
+	z-index: 10;
+}
+
+
+
+header .logo {
+	width: 130px;
+}
+
+header nav {
+	float: left;
+}
+
+header nav ul {
+}
+
+header nav ul li {
+	display: inline-block;
+	}
+
+header nav ul li.active {
+	background:#bf912a;
+}
+
+header nav ul li.active a{
+	color:#fff;
+}
+
+header nav ul li:last-child {
+	border-right: none;
+}
+
+header nav ul li a {
+	display: block;
+	padding: 6px 30px;
+	font-size: 15px;
+	text-transform:uppercase;
+	color: #fff;
+	font-weight: 500;
+}
+
+header .pull-right{text-align:right;}
+header i{color:#fff; font-size: 24px !important;
+    line-height: 40px !important;}
+
+
+header nav ul li:hover a {
+	color: #081236;
+	transition: all ease 0.3s;
+}
+
+header ul.header-btn {
+}
+
+header ul.header-btn li {
+	display: inline-block;
+	background: #081236;
+	border-radius: 25px;
+}
+
+header ul.header-btn li a {
+	display: block;
+	padding: 6px 12px;
+	font-size: 12px;
+	font-weight: 600;
+	color: white;
+}
+
+header ul.header-btn li.active a {
+	color: #e09c08;
+}
+
+header ul.header-btn li:hover a {
+}
+
+.banner {margin-top: -70px;z-index: -1;}
+
+.banner .item {
+	background-size: cover!important;
+	background-position: center center!important;
+	height: 550px;
+}
+
+.banner .item h2{color:#fff; font-weight:600; margin:auto 0px !important;}
+.banner .item .item-detailed{}
+.banner .item p{color:#fff;}
+.banner .item img{display:inline; width:40px;}
+
+.banner .owl-carousel .owl-dots {
+	display: none;
+}
+
+.banner .owl-carousel .owl-nav {
+	display: none;
+}
+
+.chat{}
+.chat .left-side .shadow{
+    border-radius: 30px;
+}
+.chat .left-side .shadow h2{font-size:45px; text-align:center; text-transform:uppercase; background:black; color:#fff; font-weight:600;}
+.chat .left-side .shadow img{display:inline; padding:3px; float:right; background:#000; margin-right:5px; height:30px; width:30px; color:#fff; line-height:30px; border-radius:50%;}
+.chat .left-side .shadow p{text-align:center;font-size: 30px;text-transform: uppercase;font-weight: 600;color: #007eff;}
+.chat .left-side .shadow p span{display:block;text-align:center;font-size: 55px;font-weight: 600;color: #007eff;background: #c4f7ff;padding: 10px;width: 100px;border-radius: 20px;margin: 0 auto;border: 2px solid #007eff;}
+.chat .right-side .shadow{
+    margin-bottom: 30px;
+    padding: 5px;
+}
+.chat .right-side .shadow img{
+    width: 125px;
+}
+.chat .right-side .shadow span{
+    text-transform: uppercase;
+    text-align: right;
+    float: right;
+    font-weight: 600;
+    margin-top: 16px;
+    font-size: 20px;
+}
+
+footer {
+	position: relative;
+}
+
+footer h3 {
+	position: relative;
+	color: #e09c08;
+	font-size: 26px;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+
+footer h3:after {
+	position: absolute;
+	content: '';
+	left: 0px;
+	top: 33px;
+	width: 70px;
+	height: 3px;
+	background: #e09c08;
+}
+
+footer p {
+	margin-bottom: 0px;
+	font-size: 16px;
+}
+
+footer ul {
+}
+
+footer ul li {
+}
+
+footer ul li a {
+	color: #585858;
+	font-size: 16px;
+}
+
+footer p i {
+	color: #e09c08;
+}
+
+footer .copyright {
+	padding: 10px 0px;
+	background: #e09c08;
+	color: white;
+	font-size: 14px;
+}
+
+footer .copyright p {
+}
+
+footer .copyright a {
+	color: #fff;
+}
+
+.fixed {
+    position: fixed;
+    width: 100%;
+    transition: 0.7s all;
+    z-index: 100;
+    top: 0px;
+}
+
+.intro{position:relative; margin-top:-100px; z-index:99;}
+.intro .shadow{margin-bottom:15px; border-radius:20px; z-index:99; background:white;}
+.intro .shadow h3{
+    color: #17aef8;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 36px;
+}
+.intro .shadow h3.sold{
+    text-transform: none;
+}
+.intro .shadow p.sold{
+    color: #17aef8;
+    font-weight: 600;
+    padding: 10px 0px;
+    font-size: 35px;
+}
+.intro .shadow .left-intro{}
+.intro .shadow .left-intro img{}
+.intro .shadow .left-intro p.time{
+    font-weight: 600;
+    color: #17aef8;
+}
+.intro .shadow .right-intro{
+    text-align: right;
+}
+.intro .shadow .right-intro img{}
+.intro .shadow .right-intro p.count{
+    padding-right: 10px;
+    color: #17aef8;
+    font-weight: 600;
+}
+
+.recent .shadow .table thead th{color:blue;}
+.recent .shadow .table tbody tr.active td{color:#17aef8;}
+.recent .shadow .table tbody tr{line-height:40px;}
+.recent p{color:#17aef8; text-transform:uppercase; font-weight:600;}
+.detailed .main{border:2px solid #17aef8; padding:20px 10px; border-radius:20px;}
+.detailed button{background:black !important; color:#fff; padding:5px 15px; border-radius:25px;}
+.detailed .shadow{border-radius:20px; border:2px solid black;}
+.detailed .shadow p{font-weight:600;}
+.detailed .shadow img{margin:0 auto !important; display:block; width:130px;}
+.detailed .table span{font-size:12px; color:#ccc;}
+.detailed .table p{margin-bottom:0px;}
+.detailed .table{border-radius:20px; border:2px solid black;}
+.detailed .table td{border:2px solid black;}
+.detailed .table th{border:2px solid black;}
+	
+.kundli {
+	position: relative;
+	background: #fff;
+}
+.kundli .main{border:2px solid green; border-radius:20px; padding:10px 0px;}
+.kundli h3 {
+	font-size: 20px;
+	text-align: center;
+	background: #fff;
+	padding: 5px;
+	font-weight: 600;
+	border-radius: 15px;
+}
+
+
+.latest{}
+.latest .shadow{margin-bottom:10px; padding:5px;}
+.latest .shadow h3{text-transform:uppercase; color:#17aef8; margin-bottom:0px;}
+.latest .shadow span{font-size:15px; color:#000;}
+.latest .shadow img{float:right; width:55px;}
+
+.plan{}
+.plan .shadow{}
+.plan .shadow h2{background:#000; color:#fff; padding:10px;}
+.plan .table th{font-size:16px;}
+.plan .table tr{font-size:13px;}
+.plan .shadow h4{color:#17aef8;}
+
+#chartdiv {
+    width: 100%;
+    height: 435px;
+    font-size: 18px;

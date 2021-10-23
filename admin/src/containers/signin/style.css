@@ -1,0 +1,240 @@
+
+.login {
+	position: relative;
+	/* border-top: 2px solid #ccc; */
+}
+
+.register .left {
+	position: relative;
+}
+
+.register .left h2 {
+	z-index: 10;
+	color: white;
+	text-align: center;
+	margin-top: 200px;
+}
+
+.register .left .btn {
+	border-radius: 30px;
+	border: 2px solid #fff;
+	background: transparent;
+	color: #e09c08;
+	font-size: 16px;
+	display: block;
+	margin: 0 auto;
+}
+
+.register .left .btn.active {
+	background: #e09c08;
+	border: 2px solid #fff;
+	margin: 0 auto;
+	color: #fff;
+	margin-bottom: 15px;
+	font-size: 16px;
+	display: block;
+}
+
+.register .left:after {
+	content: '';
+	position: absolute;
+	left: 0px;
+	top: -10px;
+    background: url('../../image/reg.png') no-repeat;
+	width: 750px;
+	height: 565px;
+	background-position: center center;
+	background-size: contain;
+	z-index: -1;
+}
+
+
+
+
+
+.login .right { border: 2px solid #3146ab; padding: 60px 10px 60px 300px; border-radius:20px;}
+.login .right img{width:100px; height:100px; border-radius:50%;}
+.login .right button{background:#e6a708; color:#fff;}
+.login .right a{background:#e6a708; color:#fff;}
+.login .left:after { content: ''; position: absolute; left: -5px; top: 0; 
+    background: url('../../image/login.png') no-repeat; width: 100%; height: 100%; background-position: left center; background-size: 100%; z-index: -1; }
+
+
+
+	.respnav{display: none;}
+
+
+	@media(max-width:992px){
+		header nav ul li a{padding:6px 14px;}
+		.banner .item{padding:95px;}
+		.banner .item h1{font-size: 43px;}
+		.feature{margin-top:-100px;}
+		.about .about-img .img-bottom{width:215px; right:-20px;}
+		.about .about-img .img-top{width:450px;}
+		.about{padding:20px 0px 100px 0px;}
+		.learn{padding:65px 290px;}
+	}
+	
+	@media(max-width:768px){
+		.topbar .btn-top{padding:5px 15px;}
+	header ul.header-btn li{display:none;}
+	.topbar .left-topbar a:nth-child(1){border-right:none; padding:0px;}
+		.about .about-img .img-top{width:300px;}
+		.about .about-img .img-bottom{top:30%; right:5px; width:170px;}
+		.feature .shadow img{width:50px;}
+		.learn p{font-size:17px; line-height:20px;}
+		header .menu-bottom nav ul li a{padding:6px 12px;}
+		.learn h2{font-size:28px;}
+		.explore .box{width:155px;}
+		.course .course-bottom .shadow h4{font-size:21px;}
+		.about-inner .inner-page h2{padding:80px 0px; font-size:55px;}
+		.feature .shadow h4{font-size:16px;}
+		.feature{margin-top:-90px;}
+		.banner .item h1{padding-right:15%;}
+		.banner .item{padding:75px 50px; height:320px;}
+		.feature .container{max-width:625px;}
+		.about{padding:30px 0px; margin-bottom:30px;}
+		.about .container{max-width:685px;}
+		.about .about-content p{margin-bottom:20px; text-align:justify;}
+		.about .about-content h2{margin-bottom:15px; font-size:26px;}
+		.about .about-content{padding:0px 15px;}
+		footer h6{margin-top:15px;}
+		.learn{padding:50px 180px;}
+		.learn::before {opacity:0.2;}
+		.learn::after {opacity:0.2}
+		.testimonial{padding:50px 0px;}
+		.testimonial h2{margin-bottom: 35px;}
+		.subscribe .left h3{font-size: 23px;}
+		.subscribe .container{padding:50px;}
+		.testimonial .shadow .side{text-align:center;}
+		.testimonial .shadow .side img{margin:0 auto;}
+	}
+	
+	@media(max-width:576px){
+		header .main{display:none;}
+		header{padding-bottom:0px !important;}
+		 .feature .shadow{margin-bottom:20px;}
+		 .about{padding:0px;}
+		 header nav{display:none; width:100%;}
+		 .login .left:after {display:none;}
+		 .login .right{border:none;}
+		 .register .right{border:none;}
+		 .register .left h2{margin-top:0px; color:#e09c08;}
+		 .register .left::after {display:none;}
+		 .respnav{position:absolute; top:-51px; right:20px; display:block; font-size:30px; color:#081236; border:3px solid #081236; padding:0px 15px; cursor:pointer; border-radius:10px;}
+		 .about .about-img .img-bottom{top:210px; right:15px; width:250px;}
+		 .about .about-img .img-top{left:22px; width:460px;}
+		 .about .about-content{margin-top:400px; padding:85px 25px 35px;}
+		 .about .about-img::after {left:10px;}
+		 .about .about-content p{margin-bottom:25px; text-align:justify;}
+		 .learn{padding:70px;}
+		 footer h6{margin-bottom:8px;}
+		 .learn:after{display:none;}
+		 .learn:before{display:none;}
+		 footer{padding-top:90px;}
+		 footer .copyright{margin-top:15px;}
+		 footer .copyright .social ul{float:left;}
+		 .testimonial h2{margin-bottom:30px; font-size:26px;}
+		 .testimonial{padding:40px 0px 30px 0px;}
+		 .testimonial .shadow .side{text-align:center;}
+		 .testimonial .shadow .side img{margin:0 auto;}
+		 .learn h2{font-size:26px;}
+		 .banner .item{padding:30px 40px;}
+		 .course h2{font-size:26px;}
+		 .feature{margin-top: 0px;}
+		 .banner .item h1{font-size:35px;}
+	}
+	
+	@media(max-width:375px){
+		h2{font-size:22px !important;}
+		h3{font-size:18px !important;}
+		header .logo{width:150px;}
+		.feature .shadow h4 a{font-size:15px;}
+		.respnav {position: absolute; top: -47px; right: 20px; display: block;  font-size: 25px; color: #081236; border: 3px solid #081236; padding: 0px 10px; cursor: pointer;    border-radius: 10px;}
+		header ul.header-btn li{display:none;}
+		.banner .item{height:185px;}
+		.feature .shadow{margin-bottom:10px; padding:5px 10px;}
+		.feature .shadow h4{font-size:13px; margin:0px;}
+		.feature .shadow img{width:45px;}
+		.feature{padding-top:10px !important; padding-bottom:20px !important;}
+		.learn{padding:30px;}
+		.learn h2{font-size:22px;}
+		.learn p{font-size:15px; letter-spacing:3px; line-height:20px;}
+		.explore .box{width:160px;}
+		.team .member .box{margin-bottom:5px;}
+		.blog .box{margin-bottom:5px;}
+		header nav ul{margin-top:5px;}
+		header nav ul li{display:block; border-right:none; background:#081236; border-bottom:1px ridge #e09c08;}
+		header nav ul li:hover a{color:#fff;}
+		.about-inner .inner-page h2{padding:50px 0px;}
+		footer ul li a{font-size:12px;}
+		footer p{font-size:12px;}
+		.login .right{padding:0px 5px !important;}
+		.register .right form{padding:20px !important;}
+	}
+	
+	@media(max-width:360px){
+		.explore .box{width:152px;}
+		.topbar .left-topbar a:nth-child(1){border-right:none; padding:10px 0px;}
+		.banner .item h1{font-size:25px; padding-right:5%;}
+		.respnav{top:-49px;}
+		.about{padding:0px;}
+		.about .about-img .img-bottom{top:205px; right:5px; width:150px;}
+		.about .about-content h2{font-size:25px;}
+		.about .about-img .img-top{width:325px;}
+		.about .about-img::after{left:5px;}
+		.about .about-content{margin-top:325px;}
+		.about .about-content p{text-align:justify; margin-bottom:20px;}
+		.learn{padding:50px 0px;}
+		.learn h2{font-size:25px; margin-bottom:10px;}
+		.learn p{font-size:14px;}
+		.testimonial h2{margin-bottom:20px; font-size:25px;}
+		.testimonial{padding:50px 0px 30px 0px;}
+		.subscribe .container{padding:10px 30px;}
+		.testimonial .shadow .comment p{font-size:14px; padding:5px; text-align:justify;}
+		.testimonial .shadow .side p.stud-name{font-size:12px; margin-bottom:0px;}
+		.testimonial .shadow .side p.star{font-size:12px;}
+		.testimonial .shadow .side p.stud-role{margin-bottom:0px;}
+		.subscribe .left h3{font-size:22px;}
+		footer{padding-top:90px;}
+		.subscribe .right .input-group input[type="text"]{padding:15px;}
+		footer .copyright{margin-top:20px;}
+		footer .copyright ul{float:left !important;}
+		.course h2{font-size:25px;}
+		.about .about-content a{padding:10px 15px;}
+		.learn a{padding:10px 15px;}
+		 footer ul li a{font-size:12px;}
+		footer p{font-size:12px;}
+		
+	}
+	
+	@media(max-width:320px){
+		.topbar .left-topbar a{margin-right:2px !important;}
+		header .logo{width:140px;}
+		.respnav{top:-46px;}
+		.explore .box{width:135px;}
+		.explore p{font-size:15px;}
+		.banner .item h1{font-size:16px; margin-bottom:20px;}
+		.banner .item a{padding:5px 10px;}
+		.feature{padding:20px 0px !important;}
+		.about .about-img .img-top{padding:15px 0px 0px 0px; width:270px;}
+		.about .about-img .img-bottom{top:140px;}
+		.course h2{font-size:20px;}
+		.course .shadow p.describe{font-size:14px;}
+		.course .shadow p.brief{margin-top:10px; font-size:10px;}
+		.about .about-content{margin-top:210px; padding:85px 25px 10px;}
+		.about .about-content h2{font-size:20px;}
+		.about .about-content p{font-size:12px; line-height:20px;}
+		.about .about-content a{padding:7px 10px; font-size:10px;}
+		.learn h2{font-size:20px;}
+		.learn p{font-size:12px;}
+		.learn a{font-size:10px; padding:7px 10px;}
+		.testimonial h2{font-size:20px;}
+		.testimonial .shadow .comment p{font-size:12px; padding:15px 5px;}
+		.testimonial .shadow .side p.stud-name{font-size:11px;}
+		.testimonial .shadow .side p.stud-role{font-size:10px;}
+		.subscribe .left h3{font-size:20px;}
+		footer ul li a{font-size:12px;}
+		footer p{font-size:12px;}
+	
+	}

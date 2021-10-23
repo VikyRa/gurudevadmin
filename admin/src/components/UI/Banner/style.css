@@ -1,0 +1,10 @@
+
+.banner {margin-top: -70px;z-index: -1;}
+
+.banner .item {
+    background-image: url('../../../image/banner1.jpg');
+	background-size: cover!important;
+	background-position: center center!important;
+	height: 550px;
+
+}
